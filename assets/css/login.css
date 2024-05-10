@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f4f4;
+
+}
+
+
+/* login */
+.login {
+    background-image: url(../images/anasayfa.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.tableOuter {
+    background-color: #faf7fa;
+    width: 33%;
+    height: 100vh;
+    float: right;
+    padding-top: 200px;
+    margin-top: -116px
+    
+
+}
+
+
+.tableOuter a{
+    text-decoration: none !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 400px;
+    margin: 10px;
+    height: 55px;
+    background: #f0f0f4;
+    border: 1px #e7e7ec;
+    border-style: solid;
+    border-radius: 70px;
+    text-align: left;
+    font-size: 16px;
+    color: #888da8;
+
+}
+
+::placeholder {
+    font: 25px;
+    text-align: center;
+
+}
+
+.sub {
+    height: 55px;
+    width: 400px;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.sub2 {
+    background-color: #ffffff;
+    border-style: none;
+}
+
+#giris {
+    background: #2d2d2d;
+}
+
+#giris:hover {
+    background: #000000;
+
+
+}
+.tableOuter a{
+    margin-left: 10px;
+}
+
+a {
+    font-size: 22px;
+    font-weight: 10px;
+    color: rgba(100, 100, 100);
+
+}
+
+b {
+    border-right: 1px solid #888da8;
+    margin-left: 8px;
+
+}
+
+
+.heading {
+    color: #000000;
+    font-size: 25px;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-top: 30px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #000000;
+}
+
+.login .bi-arrow-left {
+    display: flex;
+    align-items: center;
+    color: #b0613a;
+    font-weight: 10px;
+    column-gap: 15px;
+    padding-top: 80px;
+    padding-left: 50px;
+    margin-left: 30px;
+    text-decoration: none !important;
+
+}
+
+.tableOuter a.active,
+.tableOuter a:hover {
+    color: #000000;
+}
+
+/* kayıt ol */
+
+.kayit {
+    background-image: url(../images/anasayfa.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.kayit .bi-arrow-left {
+    display: flex;
+    align-items: center;
+    color: #b0613a;
+    font-weight: 10px;
+    column-gap: 15px;
+    padding-top: 80px;
+    padding-left: 50px;
+    margin-left: 30px;
+    text-decoration: none;
+
+}
+
+.tableOuter2 .form{
+    margin-bottom: 100px;
+}
+
+.tableOuter2 .list-group a{
+    font-size: 16px;
+    color: #b0613a;
+}
+
+.tableOuter2 .list-group-item {
+    background-color: #faf7fa;
+    border: none;
+}
+
+.form-check-input{
+    color: #b0613a !important;
+}
+
+.tableOuter2 .modal .modal-body p{
+    text-align: left;
+    font-size: 15px;
+}
+
+
+
+.tableOuter2 {
+    background-color: #faf7fa;
+    width: 33%;
+    height: 100vh;
+    float: right;
+    padding-top: 100px;
+    margin-top: -116px
+
+}
+
+
+.tableOuter2 a{
+    text-decoration: none !important;
+}
+
+.tableOuter2 a{
+    margin-left: 10px;
+}
+
+.tableOuter2 a.active,
+.tableOuter2 a:hover {
+    color: #000000;
+}
+

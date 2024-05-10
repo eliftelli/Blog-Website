@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/*.navitem {
+    color: black;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    
+}*/
+
+
+#anamenu{
+    color: black;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+  
+}
+
+#anamenu:hover{
+    border-bottom: 1px solid;
+}
+
+#hesapmenu:hover{
+    color: black;
+}
+
+.btn{
+    border: none;
+}
+
+.dropdown-menu {
+    max-height: 4500px; 
+    overflow-y: auto; 
+}
+
+/* Kaydırma çubuğu */
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.dropdown-menu .li{
+    color: black;
+    font-weight: 900;
+   
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.dropdown-item:hover{
+    color: rgb(106, 0, 255);
+    background-color: white;
+    text-align: center;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+
+.ekleicon a{
+    border-style: none;
+}
+
+#hesapmenu{
+    margin-top: 16px;
+}
+
+.nav-link {
+    color: black;
+}
+
+#hesabim{
+    font-size: 12px; 
+    margin-top: -8px;
+    color:rgb(106, 0, 255);
+    text-align: center;
+}
+
+#menu2{
+    border-style: none;
+}
+
+.navbar-brand img{
+    position: absolute;
+
+}
+
+.navbar-brand {
+    position: fixed;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+

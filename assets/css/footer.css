@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+.footer-container {
+    background-color: #717171;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    width: 1530px!important;
+    margin-left: -120px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-section ul li a:hover{
+    color: black;
+}
+
+.footer-section p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-section p a:hover{
+    color: black;
+    
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.modal-header h1{
+    color: black;
+}
+.modal-body p{
+    color: black;
+    text-align: left;
+}
+.modal-body h1{
+    color: black;
+    text-align: left;
+    font-size: 25px;
+}
+
+.modal-body p a{
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 2px #b0613a ;
+}
+
+
+.modal-body p a:hover{
+    color: #b0613a;
+}

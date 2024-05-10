@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+
+#cardbaslik {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-style: none;
+    border-bottom: rgb(90, 82, 198) solid;
+    margin-left: -200px;
+    width: 740px !important;
+
+
+}
+
+#profil_bilgi {
+    margin-left: 40px;
+
+}
+
+#post {
+    margin-left: -200px;
+}
+
+
+.img-fluid {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*.img-fluid img {
+    width: 70%;
+}*/
+
+.card {
+    max-width: 740px;
+    max-height: 280px;
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+}
+.card-body {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.buttons-container button {
+    margin-right: 10px; 
+}
+
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body h1 {
+    font-size: medium;
+}
+
+.card-body h5 {
+    text-align: left;
+    font-size: 18px;
+    
+}
+
+.card-body p {
+    text-align: left;
+    font-size: 15px;
+}
+
+#aciklama {
+    height: 50px;
+}
+
+#tarih{
+    margin-top: 40px;
+}
+
+.container .col p {
+    float: left;
+    margin-top: 25px;
+}
+
+
+.btn {
+
+    margin-bottom: 100px;
+}
+
+
+/*Profile Card 1*/
+.profile-card-1 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    color: #ffffff;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    border: none;
+    right: 17px;
+    bottom: 17px;
+}
+
+.profile-card-1 .background {
+    width: 100%;
+    vertical-align: top;
+    opacity: 0.9;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    -webkit-transform: scale(1.8);
+    transform: scale(2.8);
+}
+
+.profile-card-1 .card-content {
+    width: 100%;
+    padding: 15px 25px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.profile-card-1 .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+.profile-card-1 h2 {
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.profile-card-1 h2 small {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.profile-card-1 i {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.profile-card-1 .icon-block {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.profile-card-1 .icon-block a {
+    text-decoration: none;
+}
+
+.profile-card-1 i:hover {
+    background-color: #fff;
+    color: #2E3434;
+    text-decoration: none;
+}
+
+#duzenle {
+    border-radius: 15px;
+    width: 75px;
+
+}
+
+#sil {
+    border-radius: 15px;
+    width: 75px;
+}
+
+
+.modal-body{
+    text-align: center;
+}
+
+
+/* <div class="row">
+        <div class="card col-3 mt-5" style="width:400px; height:300px;">
+            <div class="card-body">
+                This is some text within a card body.
+            </div>
+        </div>
+
+        <div class="card col-5 mt-5" id="cardbaslik" style="width:400px; height:50px;">
+            <div class="card-body">
+                <h1>İçerikler</h1>
+            </div>
+        </div>
+
+        <div class="col ">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+      <h3 id="kart"><?php echo "" . $_SESSION['user']['ad'] . "" ?> <?php echo "" . $_SESSION['user']['soyad'] . "" ?></h3>
+                        <h5 id="kart2"> @<?php echo "" . $_SESSION['user']['kullanici_adi'] . "" ?></h5>
+                        <img src="<?php echo isset($_SESSION['user']['profil_foto']) ? $_SESSION['user']['profil_foto'] : 'profile.png'; ?>" class="img-fluid user-profile-img" alt="Profil Resmi" width="150" height="150">
+
+
+#profil_foto {
+    height: 100%;
+    width: 100%;
+}
+
+
+.profile-pic-div img {
+    object-fit: cover;
+}
+.user-profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(90, 82, 198);
+}
+
+
+                        */

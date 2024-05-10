@@ -1,0 +1,21 @@
+body{
+    width: 70%;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.separator{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.4em;
+    width: 1px;
+    height: 1em;
+    background: #ccc;
+}
+
+.card-img-top{
+    object-fit: cover;
+    max-width: 100%; /* Resim genişliği en fazla kart genişliğine kadar olacak */
+    max-height: 300px;
+}
