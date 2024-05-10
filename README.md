@@ -10,24 +10,24 @@ Yönetici giriş yaptığında, toplam yayınlanan blog sayısını ve kayıtlı
 
 ## Görüntüler
 
-![Ana Sayfa]("screenshots/1.png")
+![Ana Sayfa](screenshots/1.pn)
 
-![Son Eklenenler]("screenshots/2.png")
+![Son Eklenenler](screenshots/2.png)
 
-![Kategori]("screenshots/3.png")
+![Kategori](screenshots/3.png)
 
-![Giriş]("screenshots/4.png")
+![Giriş](screenshots/4.png)
 
-![Profilim]("screenshots/5.png")
+![Profilim](screenshots/5.png)
 
-![Kullanıcı Profili]("screenshots/6.png")
+![Kullanıcı Profili](screenshots/6.png)
 
-![İçerik Ekle]("screenshots/7.png")
+![İçerik Ekle](screenshots/7.png)
 
-![Admin Paneli]("screenshots/8.png")
+![Admin Paneli](screenshots/8.png)
 
-![Kullanıcı Sil]("screenshots/9.png")
+![Kullanıcı Sil](screenshots/9.png)
 
-![Blog Sil]("screenshots/10.png")
+![Blog Sil](screenshots/10.png)
 
-![Kategori Ekle/Sil]("screenshots/11.png")
+![Kategori Ekle/Sil](screenshots/11.png)
