@@ -1,7 +1,7 @@
 # Yönetici Panelli Blog Sitesi
 Kullanılan teknolojiler: PHP, MySQL, HTML, CSS, JavaScript, Bootstrap
 
-Özellikler: Kullanıcı üyeliği oluşturma, üyelik bilgilerini güncelleme, hesap silme, blog içeriği ekleme, diğer kullanıcı profillerini görüntüleme, yönetici tarafından blog içeriklerinin ve kullanıcılarının kaldırılması
+Özellikler: Kullanıcı üyeliği oluşturma, üyelik bilgilerini güncelleme, hesap silme, blog içeriği ekleme, diğer kullanıcı profillerini görüntüleme, yönetici tarafından blog içeriklerinin ve kullanıcıların kaldırılması
 
 ***
 
