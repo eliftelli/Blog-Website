@@ -10,7 +10,7 @@ Yönetici giriş yaptığında, toplam yayınlanan blog sayısını ve kayıtlı
 
 ## Görüntüler
 
-![Ana Sayfa](screenshots/1.pn)
+![Ana Sayfa](screenshots/1.png)
 
 ![Son Eklenenler](screenshots/2.png)
 
